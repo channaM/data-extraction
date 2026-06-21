@@ -6,7 +6,7 @@ from decimal import Decimal, InvalidOperation
 
 import pandas as pd
 
-from etl.extract import COLUMN_MAP
+from etl.schema import COLUMN_MAP
 
 logger = logging.getLogger(__name__)
 
