@@ -6,3 +6,9 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
+
+# Keep folder structure, ignore generated contents
+output/**/
+!output/.gitkeep
+downloads/**/
+!downloads/.gitkeep
